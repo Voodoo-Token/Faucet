@@ -1,0 +1,254 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --c-primary-bg: #070708;
+    --c-secondary-bg: #151515;
+    --c-tertiary-bg: #1E1E1E;
+    --c-primary: #FFFFFF;
+    --c-secondary: #9B51FF;
+    --c-accent: #FF8A51;
+    --c-accent-2: #FF8A51;
+    /* This is the same as --c-accent */
+    --c-transparent: #00000000;
+    --c-success: #51FF8A;
+    --c-info: #5197FF;
+    --c-warning: #FFD051;
+    --c-error: #FF4545;
+    --c-delimiter: #9B51FF99;
+    --t-xs: 10px;
+    --t-sm: 12px;
+    --t-md: 14px;
+    --t-base: 16px;
+    --t-lg: 18px;
+    --t-xl: 20px;
+    --t-2xl: 22px;
+    --t-3xl: 24px;
+    --t-4xl: 26px;
+    --br-sm: 2px;
+    --br-md: 4px;
+    --br-base: 6px;
+    --br-lg: 8px;
+    --br-xl: 12px;
+    --br-2xl: 16px;
+    --br-full: 9999px;
+    --tw-bg-opacity: 1;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, hsla(0, 0%, 100%, 0.15), hsla(0, 0%, 100%, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+}
+
+body {
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 55px;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.iceway-faucet-title {
+    text-align: center;
+    line-height: 56px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.iceway-faucet-button {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .iceway-faucet-button:hover {
+    background-color: #444;
+  }
+  
+  .iceway-faucet-button:active {
+    transform: scale(0.95);
+  }
+  
+
+.iceway-faucet-title-component {
+    padding-top: 55px;
+}
+
+.iceway-faucet-subtitle {
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.iceway-faucet-request-component {
+    background: hsla(0, 0%, 100%, .95);
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.iceway-faucet-request-component-shadow {
+    width: 100%;
+    height: 100%;
+    background: #46cd92;
+    opacity: .7;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+    border-radius: 8;
+    z-index: -1;
+}
+
+.iceway-faucet-request-component-embeded {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: 0.75rem;
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.iceway-faucet-panel-input-text {
+    background: #f9f9fb;
+    border: 1px solid #caced4;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    height: 46px;
+}
+
+.iceway-faucet-button {
+    background: #1e40af;
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+
+html, body {
+    background-image: url('/BackGround.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'HK Grotesk Wide';
+    src: url('/fonts/hkgroteskwide-black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HK Grotesk Wide';
+    src: url('/fonts/hkgroteskwide-bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HK Grotesk Wide';
+    src: url('/fonts/hkgroteskwide-medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
