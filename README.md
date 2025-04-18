@@ -1,38 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Voodoo Token Faucet
+
+The Voodoo Token faucet is a decentralized application that allows anyone to claim free Voodoo Tokens (VDO) on the PulseChain blockchain. This faucet is designed to boost adoption, lower entry barriers, and introduce new users to the Voodoo ecosystem, where claimed tokens can be used for staking, gambling, and more.
+
+## Overview
+
+The Voodoo Token Faucet is a decentralized, user-friendly platform that distributes free Voodooo Tokens to users. By simply connecting a PulseChain-compatible wallet (such as MetaMask), anyone can claim a free Voodoo Token. These tokens can then be used across the Voodoo ecosystem, including staking platforms and gambling applications, giving new users a risk-free way to participate and explore.
+
+## Key Features of the Faucet
+
+- **Free VDO Token Claim:** Instantly claim 1 free Voodoo Token to your wallet.
+- **Decentralized & Secure and Transparent:** Every claim is visible through the smart contract.
+- **Fast & Cheap:** The claiming process is extremely cheap.
+- **Open Source:** Faucet smart contract code is publicly available for review and verification.
+
+## How It Works
+
+1. **User connects a PulseChain-compatible wallet (e.g., MetaMask) to the faucet.**
+2. **User clicks the ‘Claim’ button.**
+3. **A transaction is sent to the smart contract, which verifies eligibility and transfers 1 VDO token to the user’s wallet.**
+4. **User can immediately use the token in other Voodoo DApps, such as staking or gambling.**
 
 ## Getting Started
 
-First, run the development server:
+**Requirements:**
+- Desktop or laptop with MetaMask extension installed
+- PulseChain network selected in MetaMask
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+**Setup:**
+1. Install MetaMask and connect to PulseChain.
+2. Import the Voodoo Token (VDO) using contract address:  
+   `0x1c5f8e8E84AcC71650F7a627cfA5B24B80f44f00'.
+3. Visit the faucet application (e.g., faucet.voodootoken.com).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Claiming process
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. **Connect Wallet:** Open the faucet application and connect your MetaMask wallet.
+2. **Claim Token:** Click the ‘Claim’ button.
+3. **Confirm Transaction:** Approve the transaction in MetaMask (paying a minimal PulseChain gas fee).
+4. **Receive Token:** After confirmation (typically ~10 seconds), the VDO token appears in your wallet.
+5. **Use Your Token:** Stake it for rewards, play games, or simply just hold it.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Security
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **Smart Contract:** The faucet’s smart contract is open source and publicly auditable, ensuring transparency and trust.
+- **Anti-Fraud Measures:** Multiple security layers are implemented to prevent abuse and ensure fair distribution.
+- **No Custody:** The platform never holds your private keys; all claims are processed on-chain.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Design & User Experience
 
-## Learn More
+- **Simple 3-Step Flow:** Connect, claim, and confirm—no unnecessary steps.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile use.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Community
+Website: www.voodootoken.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Faucet: faucet.voodootoken.com
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is open-source. See [LICENSE](LICENSE) for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> **Tip:** Share the faucet with friends and help grow the Voodoo community!
