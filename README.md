@@ -45,7 +45,7 @@ The Voodoo Token Faucet is a decentralized, user-friendly platform that distribu
 - **Smart Contract:** The faucet’s smart contract is open source and publicly auditable, ensuring transparency and trust.
 - **Anti-Fraud Measures:** Multiple security layers are implemented to prevent abuse and ensure fair distribution.
 - **No Custody:** The platform never holds your private keys; all claims are processed on-chain.
-- **Public Ledger:** All bets and outcomes are recorded on PulseChain’s blockchain.
+- **Public Ledger:** All claims are recorded on PulseChain’s blockchain.
 
 ## Design & User Experience
 
