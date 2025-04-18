@@ -61,4 +61,4 @@ The Voodoo Token Faucet is a decentralized, user-friendly platform that distribu
 
 This project is open-source. See [LICENSE](LICENSE) for more details.
 
-> **Tip:** Share the faucet with friends and help grow the Voodoo community!
+**Share the faucet with friends and help grow the Voodoo community!**
