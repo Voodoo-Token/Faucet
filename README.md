@@ -48,7 +48,7 @@ The Voodoo Token Faucet is a decentralized, user-friendly platform that distribu
 
 ## Design & User Experience
 
-- **Simple 3-Step Flow:** Connect, claim, and confirm—no unnecessary steps.
+- **Simple 3-Step Flow:** Connect, claim, and confirm, no unnecessary steps.
 - **Responsive Design:** Optimized for desktop, tablet, and mobile use.
 
 
