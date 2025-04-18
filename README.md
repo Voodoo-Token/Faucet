@@ -54,9 +54,8 @@ The Voodoo Token Faucet is a decentralized, user-friendly platform that distribu
 
 
 ## Community
-Website: www.voodootoken.com
-
-Faucet: faucet.voodootoken.com
+- **Website:** [voodootoken.com](https://www.voodootoken.com)  
+- **Faucet DApp:** [faucet.voodootoken.com](faucet.voodootoken.com)
 
 ## License
 
