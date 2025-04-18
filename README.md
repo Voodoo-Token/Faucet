@@ -6,7 +6,7 @@ The Voodoo Token faucet is a decentralized application that allows anyone to cla
 
 The Voodoo Token Faucet is a decentralized, user-friendly platform that distributes free Voodooo Tokens to users. By simply connecting a PulseChain-compatible wallet (such as MetaMask), anyone can claim a free Voodoo Token. These tokens can then be used across the Voodoo ecosystem, including staking platforms and gambling applications, giving new users a risk-free way to participate and explore.
 
-## Key Features of the Faucet
+## Key Features
 
 - **Free VDO Token Claim:** Instantly claim 1 free Voodoo Token to your wallet.
 - **Decentralized & Secure and Transparent:** Every claim is visible through the smart contract.
@@ -40,11 +40,12 @@ The Voodoo Token Faucet is a decentralized, user-friendly platform that distribu
 4. **Receive Token:** After confirmation (typically ~10 seconds), the VDO token appears in your wallet.
 5. **Use Your Token:** Stake it for rewards, play games, or simply just hold it.
 
-## Security
+## Security & Transparency
 
 - **Smart Contract:** The faucet’s smart contract is open source and publicly auditable, ensuring transparency and trust.
 - **Anti-Fraud Measures:** Multiple security layers are implemented to prevent abuse and ensure fair distribution.
 - **No Custody:** The platform never holds your private keys; all claims are processed on-chain.
+- **Public Ledger:** All bets and outcomes are recorded on PulseChain’s blockchain.
 
 ## Design & User Experience
 
